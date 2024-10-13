@@ -17,39 +17,39 @@ If you find this work useful for your research, please feel free to cite the pap
 📌 We are continuously monitoring the latest research and encourage contributions to our repository. If your work aligns with our focus, don't hesitate to submit an issue or a pull request. Feedback and contributions are welcome!
 
 ## Table of Contents
-- [RGB-based APE](#RGB-based-APE)
-   - [2D RGB-based APE](#2D-RGB-based-APE)
-   - [3D RGB-based APE](#3D-RGB-based-APE)
+- [RGB-Based APE](#RGB-based-APE)
+   - [2D RGB-Based APE](#2D-RGB-based-APE)
+   - [3D RGB-Based APE](#3D-RGB-based-APE)
      - [Single Camera View](#Single-Camera-View)
-       - [Skeleton-only Methods](#Skeleton-only-Methods)
+       - [Skeleton-Only Methods](#Skeleton-only-Methods)
        - [Animal Mesh Recovery (Model-Based)](#Animal-Mesh-Recovery-Model-Based)
        - [Animal Mesh Recovery (Model-Free)](#Animal-Mesh-Recovery-Model-Free)
      - [Multiple Camera Views](#Multiple-Camera-Views)
-- [Non-RGB-based Unimodal APE](#Non-RGB-based-Unimodal-APE)
-   - [IMU-based APE](#IMU-based-APE)    
+- [Non-RGB-Based Unimodal APE](#Non-RGB-based-Unimodal-APE)
+   - [IMU-Based APE](#IMU-based-APE)    
 - [Multi-Modal APE](#Multi-Modal-APE)
    - [RGB+Depth+Thermal](#RGB+Depth+Thermal)
    - [RGB+Depth](#RGBDepth)
    - [RGB+LiDAR](#RGBLiDAR)
    - [RGB+Acoustic](#RGBAcoustic)
    - [RGB+Language](#RGBLanguage)
-   - [Animal-borne cameras+GPS+IMUs (ego-view)](#Animal-borne-camerasGPSIMUs-ego-view)
+   - [Animal-Borne Cameras+GPS+IMUs (ego-view)](#Animal-borne-camerasGPSIMUs-ego-view)
 - [Datasets](#datasets)
-   - [RGB-based APE Dataset](#RGB-based-APE-Dataset)
-   - [Other-Sensor-based APE Dataset](#Other-Sensor-based-APE-Dataset)
+   - [RGB-Based APE Dataset](#RGB-based-APE-Dataset)
+   - [Other-Sensor-Based APE Dataset](#Other-Sensor-based-APE-Dataset)
 
 ## Papers
 
-### RGB-based APE
+### RGB-Based APE
 
-#### 2D RGB-based APE
+#### 2D RGB-Based APE
 - [DeepLabCut: markerless pose estimation of user-defined body parts with deep learning.](https://www.nature.com/articles/s41593-018-0209-y) Alexander Mathis, Pranav Mamidanna, Kevin M Cury, Taiga Abe, Venkatesh N Murthy, Mackenzie Weygandt Mathis, and Matthias Bethge. Nature neuroscience (2018).
 
-#### 3D RGB-based APE
+#### 3D RGB-Based APE
 
 ##### Single Camera View
 
-###### Skeleton-only Methods
+###### Skeleton-Only Methods
 
 - [DigiDogs: Single-View 3D Pose Estimation of Dogs Using Synthetic Training Data.](https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/papers/Shooter_DigiDogs_Single-View_3D_Pose_Estimation_of_Dogs_Using_Synthetic_Training_WACVW_2024_paper.pdf) Moira Shooter, Charles Malleson, and Adrian Hilton. WACV (2024).
 
@@ -114,9 +114,9 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 - [Monet: Multiview semi-supervised keypoint detection via epipolar divergence.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yao_MONET_Multiview_Semi-Supervised_Keypoint_Detection_via_Epipolar_Divergence_ICCV_2019_paper.pdf) Yuan Yao, Yasamin Jafarian, and Hyun Soo Park. ICCV (2019).
 
-### Non-RGB-based Unimodal APE
+### Non-RGB-Based Unimodal APE
 
-#### IMU-based APE
+#### IMU-Based APE
 
 - [Wearable inertial sensor-based limb lameness detection and pose estimation for horses.](https://ieeexplore.ieee.org/document/9743494) Tarik Yigit, Feng Han, Ellen Rankins, Jingang Yi, Kenneth H McKeever, and Karyn Malinowski.  IEEE Transactions on Automation Science and Engineering (2022).
 
@@ -142,17 +142,17 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 - [CLAMP: Prompt-Based Contrastive Learning for Connecting Language and Animal Pose.](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_CLAMP_Prompt-Based_Contrastive_Learning_for_Connecting_Language_and_Animal_Pose_CVPR_2023_paper.pdf) Xu Zhang, Wen Wang, Zhe Chen, Yufei Xu, Jing Zhang, and Dacheng Tao. CVPR (2023).
 
-#### Animal-borne cameras+GPS+IMUs (ego-view)
+#### Animal-Borne Cameras+GPS+IMUs (ego-view)
 
 - [Tracking the cheetah tail using animal-borne cameras, GPS, and an IMU.](https://ieeexplore.ieee.org/document/7950913) Amir Patel, Bradley Stocks, Callen Fisher, Fred Nicolls, and Edward Boje. IEEE sensors letters (2017).
 
 ### Datasets
 
-#### RGB-based APE Dataset
+#### RGB-Based APE Dataset
 
 - [Apt-36k: A large-scale benchmark for animal pose estimation and tracking.](https://proceedings.neurips.cc/paper_files/paper/2022/file/6e566c91d381bd7a45647d9a90838817-Paper-Datasets_and_Benchmarks.pdf) Yuxiang Yang, Junjie Yang, Yufei Xu, Jing Zhang, Long Lan, and Dacheng Tao. NeurIPS (2022).
 
-#### Other-Sensor-based APE Dataset
+#### Other-Sensor-Based APE Dataset
 
 - [LoTE-Animal: A Long Time-span Dataset for Endangered Animal Behavior Understanding.](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_LoTE-Animal_A_Long_Time-span_Dataset_for_Endangered_Animal_Behavior_Understanding_ICCV_2023_paper.pdf) Dan Liu, Jin Hou, Shaoli Huang, Jing Liu, Yuxin He, Bochuan Zheng, Jifeng Ning, and Jingdong Zhang. ICCV (2023).
 

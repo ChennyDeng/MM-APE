@@ -19,11 +19,13 @@ If you find this work useful for your research, please feel free to cite the pap
 ## Table of Contents
 - [RGB-Based APE](#RGB-based-APE)
    - [2D RGB-Based APE](#2D-RGB-based-APE)
-     - [Single Animal (Heatmap-Based)](#Single-Animal-Heatmap-Based))
-     - [Single Animal (Regression-Based)](#Single-Animal-Regression-Based)
-     - [Multiple Animals (Top-Down)](#Multiple-Animals-Top-Down)
-     - [Multiple Animals (Bottom-Up)](#Multiple-Animals-Bottom-Up)
-     - [Multiple Animals (Top-Down&Bottom-Up)](#Multiple-Animals-Top-DownBottom-Up)
+     - [Single Animal](#Single-Animal)
+       - [Heatmap-Based](#Heatmap-Based)
+       - [Regression-Based](#Regression-Based)
+     - [Multiple Animals](#Multiple-Animals)
+       - [Top-Down](#Top-Down)
+       - [Bottom-Up](#Bottom-Up)
+       - [Top-Down&Bottom-Up](#Top-DownBottom-Up)
    - [3D RGB-Based APE](#3D-RGB-based-APE)
      - [Single Camera View](#Single-Camera-View)
        - [Skeleton-Only Methods](#Skeleton-only-Methods)
@@ -57,7 +59,9 @@ If you find this work useful for your research, please feel free to cite the pap
 
 #### 2D RGB-Based APE
 
-##### Single Animal (Heatmap-Based)
+##### Single Animal
+
+###### Heatmap-Based
 
 - [Decompose to generalize: Species-generalized animal pose estimation.](https://iclr.cc/virtual/2023/poster/12209) Guangrui Li, Yifan Sun, Zongxin Yang, and Yi Yang. ICLR (2023).
 
@@ -75,11 +79,13 @@ If you find this work useful for your research, please feel free to cite the pap
 
 - [DeepLabCut: markerless pose estimation of user-defined body parts with deep learning.](https://www.nature.com/articles/s41593-018-0209-y) Alexander Mathis, Pranav Mamidanna, Kevin M Cury, Taiga Abe, Venkatesh N Murthy, Mackenzie Weygandt Mathis, and Matthias Bethge. Nature neuroscience (2018).
 
-##### Single Animal (Regression-Based)
+###### Regression-Based
 
 [Few-shot keypoint detection with uncertainty learning for unseen species.](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Few-Shot_Keypoint_Detection_With_Uncertainty_Learning_for_Unseen_Species_CVPR_2022_paper.pdf) Changsheng Lu and Piotr Koniusz. CVPR (2022).
 
-##### Multiple Animals (Top-Down)
+##### Multiple Animals
+
+###### Top-Down
 
 - [SuperAnimal pretrained pose estimation models for behavioral analysis.](https://www.nature.com/articles/s41467-024-48792-2) (SuperAnimal-Quadruped) Shaokai Ye, Anastasiia Filippova, Jessy Lauer, and et al. Nature Communications (2024).
 
@@ -89,7 +95,7 @@ If you find this work useful for your research, please feel free to cite the pap
 
 - [Deep-learning-based identification, tracking, pose estimation and behaviour 389 classification of interacting primates and mice in complex environments.](https://www.nature.com/articles/s42256-022-00477-5) Markus Marks et al . Nature Machine (2022).
 
-##### Multiple Animals (Bottom-Up)
+###### Bottom-Up
 
 - [Multi-animal pose estimation, identification and tracking with DeepLabCut.](https://www.nature.com/articles/s41592-022-01443-0) Jessy Lauer, Mu Zhou, Shaokai Ye, William Menegas, Steffen Schneider, Tanmay Nath, Mohammed Mostafizur Rahman, Valentina Di Santo, Daniel
 Soberanes, Guoping Feng, et al. Nature Methods (2022).
@@ -100,7 +106,7 @@ Soberanes, Guoping Feng, et al. Nature Methods (2022).
 
 [Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields.](https://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.pdf) Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. CVPR (2017).
 
-##### Multiple Animals (Top-Down&Bottom-Up)
+###### Top-Down&Bottom-Up
 
 - [SuperAnimal pretrained pose estimation models for behavioral analysis.](https://www.nature.com/articles/s41467-024-48792-2) (SuperAnimal-TopViewMouse) Shaokai Ye, Anastasiia Filippova, Jessy Lauer, and et al. Nature Communications (2024).
 

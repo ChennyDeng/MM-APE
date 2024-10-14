@@ -17,6 +17,9 @@ If you find this work useful for your research, please feel free to cite the pap
 📌 We are continuously monitoring the latest research and encourage contributions to our repository. If your work aligns with our focus, don't hesitate to submit an issue or a pull request. Feedback and contributions are welcome!
 
 ## Table of Contents
+
+[Methods Papers](#Methods-Papers):
+
 - [RGB-Based APE](#RGB-based-APE)
    - [2D RGB-Based APE](#2D-RGB-based-APE)
      - [Single Animal](#Single-Animal)
@@ -41,7 +44,9 @@ If you find this work useful for your research, please feel free to cite the pap
    - [RGB+Acoustic](#RGBAcoustic)
    - [RGB+Language](#RGBLanguage)
    - [Animal-Borne Cameras+GPS+IMUs (ego-view)](#Animal-borne-camerasGPSIMUs-ego-view)
-- [Datasets](#datasets)
+ 
+[Datasets Papers](#datasets):
+
    - [RGB-Based APE Dataset](#RGB-based-APE-Dataset)
      - [Images-Based](#Images-based)
      - [Videos-Based](#Videos-Based)
@@ -53,7 +58,7 @@ If you find this work useful for your research, please feel free to cite the pap
      - [3D Scanner](#3D-Scanner)
      - [MoCap+IMU](#MoCapIMU)
 
-## Papers
+## Methods Papers
 
 ### RGB-Based APE
 
@@ -221,11 +226,11 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 - [Tracking the cheetah tail using animal-borne cameras, GPS, and an IMU.](https://ieeexplore.ieee.org/document/7950913) Amir Patel, Bradley Stocks, Callen Fisher, Fred Nicolls, and Edward Boje. IEEE sensors letters (2017).
 
-### Datasets
+## Datasets Papers
 
-#### RGB-Based APE Dataset
+### RGB-Based APE Dataset
 
-##### Images-Based
+#### Images-Based
 
 - [Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape.](https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html) Jiacong Xu, Yi Zhang, Jiawei Peng, and et al. ICCV (2023).
 
@@ -253,7 +258,7 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 - [Novel Dataset for Fine-Grained Image Categorization.](https://people.csail.mit.edu/khosla/papers/fgvc2011.pdf) Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, and Li Fei-Fei. CVPR Workshop (2011).
 
-##### Videos-Based
+#### Videos-Based
 
 - [ChimpACT: A Longitudinal Dataset for Understanding Chimpanzee Behaviors.](https://proceedings.neurips.cc/paper_files/paper/2023/file/57a95cd3898bf4912269848a01f53620-Paper-Datasets_and_Benchmarks.pdf) Xiaoxuan Ma, Stephan P. Kaufhold, Jiajun Su, Wentao Zhu, Jack Terwilliger, Andres Meza, Yixin Zhu, Federico Rossano, and Yizhou Wang. NeurIPS (2023).
 
@@ -285,23 +290,23 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 - [The PAIR-R24M Dataset for Multi-animal 3D Pose Estimation.](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e-Abstract-round1.html) Jesse Marshall, Ugne Klibaite, amanda gellis, Diego Aldarondo, Bence Olveczky, and Timothy W Dunn. NeurIPS (2021).
 
-##### RGB+Depth+MoCap
+#### RGB+Depth+MoCap
 
 - [RGBD-Dog: Predicting Canine Pose from RGBD Sensors.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kearney_RGBD-Dog_Predicting_Canine_Pose_from_RGBD_Sensors_CVPR_2020_paper.pdf) Sinead Kearney, Wenbin Li, Martin Parsons, Kwang In Kim, and Darren Cosker. CVPR (2020).
 
-##### RGB+LiDAR
+#### RGB+LiDAR
 
 - [WildPose: A Long-Range 3D Wildlife Motion Capture System.](https://www.biorxiv.org/content/10.1101/2024.02.05.578861v1) Naoya Muramatsu, Sangyun Shin, Qianyi Deng, Andrew Markham, and Amir Patel. bioRxiv (2024).
 
-##### Infrared
+#### Infrared
 
 - [LoTE-Animal: A Long Time-span Dataset for Endangered Animal Behavior Understanding.](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_LoTE-Animal_A_Long_Time-span_Dataset_for_Endangered_Animal_Behavior_Understanding_ICCV_2023_paper.pdf) Dan Liu, Jin Hou, Shaoli Huang, Jing Liu, Yuxin He, Bochuan Zheng, Jifeng Ning, and Jingdong Zhang. ICCV (2023).
 
-##### 3D Scanner
+#### 3D Scanner
 
 - [VAREN: Very Accurate and Realistic Equine Network.](https://openaccess.thecvf.com/content/CVPR2024/html/Zuffi_VAREN_Very_Accurate_and_Realistic_Equine_Network_CVPR_2024_paper.html) Silvia Zuffi, Ylva Mellbin, Ci Li, Markus Hoeschle, Hedvig Kjellström, Senya Polikovsky, Elin Hernlund, and Michael J. Black. CVPR (2024).
 
-##### MoCap+IMU
+#### MoCap+IMU
 
 - [Wearable inertial sensor-based limb lameness detection and pose estimation for horses.](https://ieeexplore.ieee.org/document/9743494) Tarik Yigit, Feng Han, Ellen Rankins, Jingang Yi, Kenneth H McKeever, and Karyn Malinowski. IEEE Transactions on Automation Science and Engineering (2022).
 

@@ -136,6 +136,8 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 #### RGB+Depth
 
+- [Automated measurement of livestock body based on pose normalisation using statistical shape model.](https://www.sciencedirect.com/science/article/abs/pii/S1537511023000211) Xinying Luo, Yihu Hu, Zicheng Gao, Hao Guo, and Yang Su. Biosystems Engineering (2023).
+
 - [RGBD-Dog: Predicting Canine Pose from RGBD Sensors.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kearney_RGBD-Dog_Predicting_Canine_Pose_from_RGBD_Sensors_CVPR_2020_paper.pdf) Sinead Kearney, Wenbin Li, Martin Parsons, Kwang In Kim, and Darren Cosker. CVPR (2020).
 
 #### RGB+LiDAR
@@ -144,10 +146,16 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 #### RGB+Acoustic
 
+- [CLHOP: Combined Audio-Video Learning for Horse 3D Pose and Shape Estimation.](https://arxiv.org/abs/2407.01244) Ci Li, Elin Hernlund, Hedvig Kjellström, and Silvia Zuffi. arXiv (2024).
+
 - [The Sound of Motion: Multimodal horse motion estimation from video and audio.](https://sightsound.org/papers/2022/Li_The_Sound_of_Motion_Multimodal_horse_motion_estimation_from_video_and_audio.pdf) Ci Li, Elin Hernlund, Hedvig Kjellström, and Silvia Zuffi. CVPR Workshop (2022).
 
 #### RGB+Language
 
+- [AWOL: Analysis WithOut synthesis using Language.](https://arxiv.org/abs/2404.03042) Silvia Zuffi and Michael J. Black. arXiv (2024).
+
+- [AmadeusGPT: a natural language interface for interactive animal behavioral analysis.](https://proceedings.neurips.cc/paper_files/paper/2023/file/1456560769bbc38e4f8c5055048ea712-Paper-Conference.pdf) Shaokai Ye, Jessy Lauer, Mu Zhou, Alexander Mathis, and Mackenzie W Mathis. NeurIPS (2023).
+  
 - [CLAMP: Prompt-Based Contrastive Learning for Connecting Language and Animal Pose.](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_CLAMP_Prompt-Based_Contrastive_Learning_for_Connecting_Language_and_Animal_Pose_CVPR_2023_paper.pdf) Xu Zhang, Wen Wang, Zhe Chen, Yufei Xu, Jing Zhang, and Dacheng Tao. CVPR (2023).
 
 #### Animal-Borne Cameras+GPS+IMUs (ego-view)

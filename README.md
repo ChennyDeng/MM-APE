@@ -86,7 +86,7 @@ If you find this work useful for your research, please feel free to cite the pap
 
 ###### Regression-Based
 
-[Few-shot keypoint detection with uncertainty learning for unseen species.](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Few-Shot_Keypoint_Detection_With_Uncertainty_Learning_for_Unseen_Species_CVPR_2022_paper.pdf) Changsheng Lu and Piotr Koniusz. CVPR (2022).
+- [Few-shot keypoint detection with uncertainty learning for unseen species.](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Few-Shot_Keypoint_Detection_With_Uncertainty_Learning_for_Unseen_Species_CVPR_2022_paper.pdf) Changsheng Lu and Piotr Koniusz. CVPR (2022).
 
 ##### Multiple Animals
 
@@ -109,7 +109,7 @@ Soberanes, Guoping Feng, et al. Nature Methods (2022).
 
 - [Multiple monkey pose estimation using openpose.](https://www.biorxiv.org/content/10.1101/2021.01.28.428726v1) Salvador Blanco Negrete, Rollyn Labuguen, Jumpei Matsumoto, Yasuhiro Go, Ken-ichi Inoue, and Tomohiro Shibata. bioRxiv (2021).
 
-[Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields.](https://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.pdf) Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. CVPR (2017).
+- [Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields.](https://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.pdf) Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. CVPR (2017).
 
 ###### Top-Down&Bottom-Up
 

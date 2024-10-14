@@ -28,7 +28,7 @@ If you find this work useful for your research, please feel free to cite the pap
 - [Non-RGB-Based Unimodal APE](#Non-RGB-based-Unimodal-APE)
    - [IMU-Based APE](#IMU-based-APE)    
 - [Multi-Modal APE](#Multi-Modal-APE)
-   - [RGB+Depth+Thermal](#RGB+Depth+Thermal)
+   - [RGB+Depth+Thermal](#RGBDepthThermal)
    - [RGB+Depth](#RGBDepth)
    - [RGB+LiDAR](#RGBLiDAR)
    - [RGB+Acoustic](#RGBAcoustic)

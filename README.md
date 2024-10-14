@@ -45,7 +45,7 @@ If you find this work useful for your research, please feel free to cite the pap
    - [RGB+Language](#RGBLanguage)
    - [Animal-Borne Cameras+GPS+IMUs (ego-view)](#Animal-borne-camerasGPSIMUs-ego-view)
  
-[Datasets Papers](#datasets):
+[Datasets Papers](#Datasets-Papers):
 
    - [RGB-Based APE Dataset](#RGB-based-APE-Dataset)
      - [Images-Based](#Images-based)

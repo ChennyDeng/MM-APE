@@ -36,7 +36,15 @@ If you find this work useful for your research, please feel free to cite the pap
    - [Animal-Borne Cameras+GPS+IMUs (ego-view)](#Animal-borne-camerasGPSIMUs-ego-view)
 - [Datasets](#datasets)
    - [RGB-Based APE Dataset](#RGB-based-APE-Dataset)
+     - [Images-Based](#Images-based)
+     - [Videos-Based](#Videos-Based)
    - [Other-Sensor-Based APE Dataset](#Other-Sensor-based-APE-Dataset)
+     - [RGB+MoCap](#RGBMoCap)
+     - [RGB+Depth+MoCap](#RGBDepthMoCap)
+     - [RGB+LiDAR](#RGBLiDAR)
+     - [Infrared](#Infrared)
+     - [3D Scanner](#3D-Scanner)
+     - [MoCap+IMU](#MoCapIMU)
 
 ## Papers
 
@@ -150,11 +158,85 @@ Gellis, David E Carlson, Dmitriy Aronov, et al. Nature methods (2021).
 
 #### RGB-Based APE Dataset
 
+##### Images-Based
+
+- [Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape.](https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Animal3D_A_Comprehensive_Dataset_of_3D_Animal_Pose_and_Shape_ICCV_2023_paper.html) Jiacong Xu, Yi Zhang, Jiawei Peng, and et al. ICCV (2023).
+
+- [OpenApePose, a database of annotated ape photographs for pose estimation.](https://elifesciences.org/articles/86873) Nisarg Desai, Praneet Bala, Rebecca Richardson, Jessica Raper, Jan Zimmermann, and Benjamin Hayden. ELife (2023).
+
+- [OpenMonkeyChallenge: Dataset and Benchmark Challenges for Pose Estimation of Non-human Primates.](https://link.springer.com/article/10.1007/s11263-022-01698-2) Yuan Yao, Praneet Bala, Abhiraj Mohan, and et al. IJCV (2022).
+
+- [Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding.](https://openaccess.thecvf.com/content/CVPR2022/papers/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.pdf) Xun Long Ng, Kian Eng Ong, Qichen Zheng, Yun Ni, Si Yong Yeo, and Jun Liu. CVPR (2022).
+
+- [MacaquePose: A Novel “In the Wild” Macaque Monkey Pose Dataset for Markerless Motion Capture.](https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2020.581154/full) Rollyn Labuguen, Jumpei Matsumoto, Salvador Blanco Negrete, Hiroshi Nishimaru, Hisao Nishijo, Masahiko Takada, Yasuhiro Go, Ken-ichi Inoue, and Tomohiro Shibata. Frontiers in Behavioral Neuroscience (2021).
+
+- [Ap-10k: A benchmark for animal pose estimation in the wild.](https://proceedings.neurips.cc/paper_files/paper/2022/file/fbb10d319d44f8c3b4720873e4177c65-Paper-Conference.pdf) Hang Yu, Yufei Xu, Jing Zhang, Wei Zhao, Ziyu Guan, and Dacheng Tao. NeurIPS (2021).
+
+- [Who Left the Dogs Out? 3D Animal Reconstruction with Expectation Maximization in the Loop.](https://arxiv.org/abs/2007.11110) Benjamin Biggs, Oliver Boyne, James Charles, Andrew Fitzgibbon, and Roberto Cipolla. ECCV (2020).
+
+- [Learning From Synthetic Animals.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Mu_Learning_From_Synthetic_Animals_CVPR_2020_paper.pdf) Jiteng Mu, Weichao Qiu, Gregory D. Hager, and Alan L. Yuille. CVPR (2020).
+
+- [Three-D Safari: Learning to Estimate Zebra Pose, Shape, and Texture from Images" In the Wild".](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zuffi_Three-D_Safari_Learning_to_Estimate_Zebra_Pose_Shape_and_Texture_ICCV_2019_paper.pdf) Silvia Zuffi, Angjoo Kanazawa, Tanya Berger-Wolf, and Michael J Black. CVPR (2019).
+  
+- [Cross-domain adaptation for animal pose estimation.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cao_Cross-Domain_Adaptation_for_Animal_Pose_Estimation_ICCV_2019_paper.pdf) Jinkun Cao, Hongyang Tang, Hao-Shu Fang, Xiaoyong Shen, Cewu Lu, and Yu-Wing Tai. ICCV (2019).
+
+- [Animals-10 dataset.](https://www.kaggle.com/alessiocorrado99/animals10.) Corrado Alessio. (2018). 
+
+- [Microsoft coco: Common objects in context].(https://cocodataset.org/#download.) Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. ECCV (2014).
+
+- [Novel Dataset for Fine-Grained Image Categorization.](https://people.csail.mit.edu/khosla/papers/fgvc2011.pdf) Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, and Li Fei-Fei. CVPR Workshop (2011).
+
+##### Videos-Based
+
+- [ChimpACT: A Longitudinal Dataset for Understanding Chimpanzee Behaviors.](https://proceedings.neurips.cc/paper_files/paper/2023/file/57a95cd3898bf4912269848a01f53620-Paper-Datasets_and_Benchmarks.pdf) Xiaoxuan Ma, Stephan P. Kaufhold, Jiajun Su, Wentao Zhu, Jack Terwilliger, Andres Meza, Yixin Zhu, Federico Rossano, and Yizhou Wang. NeurIPS (2023).
+
 - [Apt-36k: A large-scale benchmark for animal pose estimation and tracking.](https://proceedings.neurips.cc/paper_files/paper/2022/file/6e566c91d381bd7a45647d9a90838817-Paper-Datasets_and_Benchmarks.pdf) Yuxiang Yang, Junjie Yang, Yufei Xu, Jing Zhang, Long Lan, and Dacheng Tao. NeurIPS (2022).
+  
+- [Pretraining boosts out-of-domain robustness for pose estimation.](https://arxiv.org/abs/1909.11229) Alexander Mathis, Thomas Biasi, Steffen Schneider, Mert Yuksekgonul, Byron Rogers, Matthias Bethge, and Mackenzie W Mathis. WACV (2021).
+  
+- [AcinoSet: a 3D pose estimation dataset and baseline models for Cheetahs in the wild.](https://arxiv.org/abs/2103.13282) Daniel Joska, Liam Clark, Naoya Muramatsu, Ricardo Jericevich, Fred Nicolls, Alexander Mathis, Mackenzie W Mathis, and Amir Patel. IEEE ICRA (2021).
+
+- [Automated markerless pose estimation in freely moving macaques with OpenMonkeyStudio.](https://www.nature.com/articles/s41467-020-18441-5) Praneet C Bala, Benjamin R Eisenreich, Seng Bum Michael Yoo, Benjamin Y Hayden, Hyun Soo Park, and Jan Zimmermann. Nature communications (2020).
+
+- [ATRW: A Benchmark for Amur Tiger Re-identification in the Wild.](https://dl.acm.org/doi/10.1145/3394171.3413569) Shuyuan Li, Jianguo Li, Hanlin Tang, Rui Qian, and Weiyao Lin. ACM International Conference on Multimedia (2020).
+
+- [Creatures great and SMAL: Recovering the shape and motion of animals from video.](https://link.springer.com/chapter/10.1007/978-3-030-20873-8_1#citeas) Benjamin Biggs, Thomas Roddick, Andrew Fitzgibbon, and Roberto Cipolla. ACCV (2018).
+
+- [Behavior discovery and alignment of articulated object classes from unstructured video.](https://arxiv.org/pdf/1511.09319) Luca Del Pero, Susanna Ricco, Rahul Sukthankar, and Vittorio Ferrari. IJCV (2017).
+
+- [Articulated motion discovery using pairs of trajectories.](https://openaccess.thecvf.com/content_cvpr_2015/papers/Pero_Articulated_Motion_Discovery_2015_CVPR_paper.pdf) Luca Del Pero, Susanna Ricco, Rahul Sukthankar, and Vittorio Ferrari. CVPR (2015).
 
 #### Other-Sensor-Based APE Dataset
 
+##### RGB+MoCap
+
+- [The Poses for Equine Research Dataset (PFERD).](https://www.nature.com/articles/s41597-024-03312-1) Ci Li, Ylva Mellbin, Johanna Krogager, Senya Polikovsky, Martin Holmberg, Nima Ghorbani, Michael J Black, Hedvig Kjellström, Silvia Zuffi, and Elin Hernlund. Scientific Data (2024).
+
+- [3D-POP - An Automated Annotation Approach to Facilitate Markerless 2D-3D Tracking of Freely Moving Birds With Marker-Based Motion Capture.](https://arxiv.org/pdf/2303.13174) Hemal Naik, Alex Hoi Hang Chan, Junran Yang, Mathilde Delacoux, Iain D. Couzin, Fumihiro Kano, and Máté Nagy. CVPR (2023).
+
+- [Geometric deep learning enables 3D kinematic profiling across species and environments.](https://www.nature.com/articles/s41592-021-01106-6) Timothy W Dunn, Jesse D Marshall, Kyle S Severson, and et al. Nature methods (2021).
+
+- [The PAIR-R24M Dataset for Multi-animal 3D Pose Estimation.](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1ff8a7b5dc7a7d1f0ed65aaa29c04b1e-Abstract-round1.html) Jesse Marshall, Ugne Klibaite, amanda gellis, Diego Aldarondo, Bence Olveczky, and Timothy W Dunn. NeurIPS (2021).
+
+##### RGB+Depth+MoCap
+
+- [RGBD-Dog: Predicting Canine Pose from RGBD Sensors.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kearney_RGBD-Dog_Predicting_Canine_Pose_from_RGBD_Sensors_CVPR_2020_paper.pdf) Sinead Kearney, Wenbin Li, Martin Parsons, Kwang In Kim, and Darren Cosker. CVPR (2020).
+
+##### RGB+LiDAR
+
+- [WildPose: A Long-Range 3D Wildlife Motion Capture System.](https://www.biorxiv.org/content/10.1101/2024.02.05.578861v1) Naoya Muramatsu, Sangyun Shin, Qianyi Deng, Andrew Markham, and Amir Patel. bioRxiv (2024).
+
+##### Infrared
+
 - [LoTE-Animal: A Long Time-span Dataset for Endangered Animal Behavior Understanding.](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_LoTE-Animal_A_Long_Time-span_Dataset_for_Endangered_Animal_Behavior_Understanding_ICCV_2023_paper.pdf) Dan Liu, Jin Hou, Shaoli Huang, Jing Liu, Yuxin He, Bochuan Zheng, Jifeng Ning, and Jingdong Zhang. ICCV (2023).
+
+##### 3D Scanner
+
+- [VAREN: Very Accurate and Realistic Equine Network.](https://openaccess.thecvf.com/content/CVPR2024/html/Zuffi_VAREN_Very_Accurate_and_Realistic_Equine_Network_CVPR_2024_paper.html) Silvia Zuffi, Ylva Mellbin, Ci Li, Markus Hoeschle, Hedvig Kjellström, Senya Polikovsky, Elin Hernlund, and Michael J. Black. CVPR (2024).
+
+##### MoCap+IMU
+
+- [Wearable inertial sensor-based limb lameness detection and pose estimation for horses.](https://ieeexplore.ieee.org/document/9743494) Tarik Yigit, Feng Han, Ellen Rankins, Jingang Yi, Kenneth H McKeever, and Karyn Malinowski. IEEE Transactions on Automation Science and Engineering (2022).
 
 ## Todo
 

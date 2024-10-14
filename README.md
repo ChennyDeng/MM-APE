@@ -19,6 +19,11 @@ If you find this work useful for your research, please feel free to cite the pap
 ## Table of Contents
 - [RGB-Based APE](#RGB-based-APE)
    - [2D RGB-Based APE](#2D-RGB-based-APE)
+     - [Single Animal](#Single-Animal-Heatmap-Based)
+     - [Single Animal](#Single-Animal-Regression-Based)
+     - [Multiple Animals](#Multiple-Animals-Top-Down)
+     - [Multiple Animals](#Multiple-Animals-Bottom-Up)
+     - [Multiple Animals](#Multiple-Animals-Top-DownBottom-Up)
    - [3D RGB-Based APE](#3D-RGB-based-APE)
      - [Single Camera View](#Single-Camera-View)
        - [Skeleton-Only Methods](#Skeleton-only-Methods)
@@ -51,7 +56,55 @@ If you find this work useful for your research, please feel free to cite the pap
 ### RGB-Based APE
 
 #### 2D RGB-Based APE
+
+##### Single Animal (Heatmap-Based)
+
+- [Decompose to generalize: Species-generalized animal pose estimation.](https://iclr.cc/virtual/2023/poster/12209) Guangrui Li, Yifan Sun, Zongxin Yang, and Yi Yang. ICLR (2023).
+
+- [ScarceNet: Animal Pose Estimation with Scarce Annotations.](https://openaccess.thecvf.com/content/CVPR2023/html/Li_ScarceNet_Animal_Pose_Estimation_With_Scarce_Annotations_CVPR_2023_paper.html) Chen Li and Gim Hee Lee. CVPR (2023).
+
+- [A unified framework for domain adaptive pose estimation.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930592.pdf) Donghyun Kim, Kaihong Wang, Kate Saenko, Margrit Betke, and Stan Sclaroff. ECCV (2022).
+
+- [From synthetic to real: Unsupervised domain adaptation for animal pose estimation.](https://arxiv.org/abs/2103.14843) Chen Li and Gim Hee Lee. CVPR (2021).
+
+- [Deformation-aware unpaired image translation for pose estimation on laboratory animals.](https://arxiv.org/abs/2001.08601) Siyuan Li, Semih Gunel, Mirela Ostrek, Pavan Ramdya, Pascal Fua, and Helge Rhodin. CVPR (2020).
+
+- [DeepPoseKit, a software toolkit for fast and robust animal pose estimation using deep learning.](https://elifesciences.org/articles/47994) Jacob M Graving, Daniel Chae, Hemal Naik, Liang Li, Benjamin Koger, Blair R Costelloe, and Iain D Couzin. Elife (2019).
+
+- [Fast animal pose estimation using deep neural networks.](https://www.nature.com/articles/s41592-018-0234-5) Talmo D Pereira, Diego E Aldarondo, Lindsay Willmore, Mikhail Kislin, Samuel S-H Wang, Mala Murthy, and Joshua W Shaevitz. Nature methods (2019).
+
 - [DeepLabCut: markerless pose estimation of user-defined body parts with deep learning.](https://www.nature.com/articles/s41593-018-0209-y) Alexander Mathis, Pranav Mamidanna, Kevin M Cury, Taiga Abe, Venkatesh N Murthy, Mackenzie Weygandt Mathis, and Matthias Bethge. Nature neuroscience (2018).
+
+##### Single Animal (Regression-Based)
+
+[Few-shot keypoint detection with uncertainty learning for unseen species.](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Few-Shot_Keypoint_Detection_With_Uncertainty_Learning_for_Unseen_Species_CVPR_2022_paper.pdf) Changsheng Lu and Piotr Koniusz. CVPR (2022).
+
+##### Multiple Animal (Top-Down)
+
+- [SuperAnimal pretrained pose estimation models for behavioral analysis.](https://www.nature.com/articles/s41467-024-48792-2) (SuperAnimal-Quadruped) Shaokai Ye, Anastasiia Filippova, Jessy Lauer, and et al. Nature Communications (2024).
+
+- [The Hitchhiker’s Guide to Endangered Species Pose Estimation.](https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/html/Straka_The_Hitchhikers_Guide_to_Endangered_Species_Pose_Estimation_WACVW_2024_paper.html) Jakub Straka, Marek Hruz, and Lukas Picek. WACV (2024).
+
+- [DepthFormer: A High-Resolution Depth-Wise Transformer for Animal Pose Estimation.](https://www.mdpi.com/2077-0472/12/8/1280) Sicong Liu, Qingcheng Fan, Shanghao Liu, and Chunjiang Zhao. Agriculture (2022).
+
+- [Deep-learning-based identification, tracking, pose estimation and behaviour 389 classification of interacting primates and mice in complex environments.](https://www.nature.com/articles/s42256-022-00477-5) Markus Marks et al . Nature Machine (2022).
+
+##### Multiple Animal (Bottom-Up)
+
+- [Multi-animal pose estimation, identification and tracking with DeepLabCut.](https://www.nature.com/articles/s41592-022-01443-0) Jessy Lauer, Mu Zhou, Shaokai Ye, William Menegas, Steffen Schneider, Tanmay Nath, Mohammed Mostafizur Rahman, Valentina Di Santo, Daniel
+Soberanes, Guoping Feng, et al. Nature Methods (2022).
+
+- [Multi-pig Pose Estimation Using DeepLabCut.](https://researchportal.helsinki.fi/en/publications/multi-pig-pose-estimation-using-deeplabcut) Fahimeh Farahnakian, Jukka Heikkonen, and Stefan Björkman. IEEE ICICIP (2021).
+
+- [Multiple monkey pose estimation using openpose.](https://www.biorxiv.org/content/10.1101/2021.01.28.428726v1) Salvador Blanco Negrete, Rollyn Labuguen, Jumpei Matsumoto, Yasuhiro Go, Ken-ichi Inoue, and Tomohiro Shibata. bioRxiv (2021).
+
+[Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields.](https://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Realtime_Multi-Person_2D_CVPR_2017_paper.pdf) Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh. CVPR (2017).
+
+##### Multiple Animal (Top-Down&Bottom-Up)
+
+- [SuperAnimal pretrained pose estimation models for behavioral analysis.](https://www.nature.com/articles/s41467-024-48792-2) (SuperAnimal-TopViewMouse) Shaokai Ye, Anastasiia Filippova, Jessy Lauer, and et al. Nature Communications (2024).
+
+- [SLEAP: A deep learning system for multi-animal pose tracking.](https://www.nature.com/articles/s41592-022-01426-1) Talmo D Pereira, Nathaniel Tabris, Arie Matsliah, et al . Nature methods (2022).
 
 #### 3D RGB-Based APE
 

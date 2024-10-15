@@ -1,4 +1,4 @@
-# Towards Multi-Modal Animal Pose Estimation: An In-Depth Analysis  [[Paper]()]
+# Towards Multi-Modal Animal Pose Estimation: An In-Depth Analysis  [[Paper](https://arxiv.org/abs/2410.09312)]
 
 A repository of unimodal and multi-modal animal pose estimation datasets and papers. This repository is associated with our systematic review, entitled "Towards Multi-Modal Animal Pose Estimation: An In-Depth Analysis".
 
@@ -11,6 +11,18 @@ Authors: [Qianyi Deng](https://www.cs.ox.ac.uk/people/publications/date/Qianyi.D
 [Andrew Markham](https://scholar.google.com/citations?hl=en&user=g3JTO9EAAAAJ).
 
 If you find this work useful for your research, please feel free to cite the paper and leave a ⭐.
+
+``` bash
+@misc{deng2024multimodalanimalposeestimation,
+      title={Towards Multi-Modal Animal Pose Estimation: An In-Depth Analysis}, 
+      author={Qianyi Deng and Oishi Deb and Amir Patel and Christian Rupprecht and Philip Torr and Niki Trigoni and Andrew Markham},
+      year={2024},
+      eprint={2410.09312},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.09312}, 
+}
+```
 
 ## News
 

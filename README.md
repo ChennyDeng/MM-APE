@@ -3,7 +3,7 @@
 A repository of unimodal and multi-modal animal pose estimation datasets and papers. This repository is associated with our systematic review, entitled "Towards Multi-Modal Animal Pose Estimation: An In-Depth Analysis".
 
 Authors: [Qianyi Deng](https://www.cs.ox.ac.uk/people/publications/date/Qianyi.Deng.html), 
-[Oishi Deb](https://www.linkedin.com/in/oishi-deb-61737386/?originalSubdomain=uk), 
+[Oishi Deb](https://scholar.google.com/citations?user=_x5INRkAAAAJ&hl=en), 
 [Amir Patel](https://scholar.google.com/citations?user=RxMigV4AAAAJ&hl=en&oi=ao),
 [Christian Rupprecht](https://scholar.google.com/citations?hl=en&user=IrYlproAAAAJ), 
 [Philip Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en),
